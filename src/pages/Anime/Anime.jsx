@@ -41,7 +41,7 @@ const Anime = () => {
                         <title>Nonton {animeDetails.title}</title>
                         <meta
                         name="description"
-                        content="Tempat nonton anime subtitle Indonesia secara gratis di KUMANIME.FUN tanpa gangguan banner iklan yang banyak dan mengganggu."
+                        content="Tempat nonton anime subtitle Indonesia secara gratis di Karunime tanpa gangguan banner iklan yang banyak dan mengganggu."
                         />
                         <meta name="robots" content="index, follow" />
                         <meta
@@ -50,7 +50,7 @@ const Anime = () => {
                         />
                         <meta
                         property="og:description"
-                        content="Tempat nonton anime subtitle Indonesia secara gratis di KUMANIME.FUN tanpa gangguan banner iklan yang banyak dan mengganggu."
+                        content="Tempat nonton anime subtitle Indonesia secara gratis di Karunime tanpa gangguan banner iklan yang banyak dan mengganggu."
                         />
                         <meta property="og:locale" content="id_ID" />
                         <meta property="og:type" content="article" />
@@ -60,13 +60,13 @@ const Anime = () => {
                         <meta name="twitter:title" content={`Nonton ${animeDetails.title}`} />
                         <meta name="twitter:card" content="summary_large_image" />
                         <meta name="keywords" content="kumanime, otakudesu, kuronime, kuramanime, web streaming anime, moenime, moenime id, moenime list, moe anime, anime batch indonesia, anime batch sub indo, animebatch sub indo, anime batch terbaru, download anime batch subtitle indonesia, situs download anime, anime sub indo, download anime sub indo, download anime subtitle indonesia, download anime terbaru, download anime bd, download anime movie, download anime batch, download anime batch sub indo, download anime batch subtitle indonesia terlengkap, streaming anime, streaming anime sub indo, streaming anime subtitle indonesia, streaming anime sub indo lengkap" />
-                        <meta name="twitter:description" content="Nonton Anime Online Sub Indo Gratis di KUMANIME.FUN" />
+                        <meta name="twitter:description" content="Nonton Anime Online Sub Indo Gratis di Karunime" />
                         <meta
                         name="twitter:image"
                         content="https://raw.githubusercontent.com/MastayY/kumanime/main/public/logo.png"
                         />
                     </Helmet>
-                    <div className="pb-10 pt-3 bg-bg-kumanime text-white">
+                    <div className="pb-10 pt-3 bg-bg-karunime text-white">
                         <div className="px-16 grid relative lg:grid-cols-8 gap-4 place-content-center place-items-center bg-cover mb-10">
                             <div className="absolute blur-[20px] opacity-35 bg-cover w-full h-full bg-center" style={{backgroundImage: `url(${animeDetails.thumb})`}}></div>
                             <div className="anime-detail grid gap-5 md:grid-cols-5 md:mb-16 lg:col-span-6 py-16 place-items-center md:place-items-start relative">
@@ -91,7 +91,7 @@ const Anime = () => {
                                         </span>
                                         )}
                                     </p>
-                                    <p className="mt-5"><span className="font-semibold">KUMANIME.FUN</span> merupakan situs tempat nonton anime <span className="font-semibold">{animeDetails.title}</span> subtitle indonesia secara gratis</p>
+                                    <p className="mt-5"><span className="font-semibold">Karunime</span> merupakan situs tempat nonton anime <span className="font-semibold">{animeDetails.title}</span> subtitle indonesia secara gratis</p>
                                 </div>
                             </div>
                             <AnimeDetail>
