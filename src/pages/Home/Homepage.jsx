@@ -67,20 +67,20 @@ const Homepage = () => {
     return (
         <>
             <Helmet>
-                <title>Kumanime - Streaming Anime Sub Indo</title>
+                <title>Karunime - Streaming Anime Sub Indo</title>
                 <meta
                 name="description"
-                content="Nonton anime subtitle Indonesia secara gratis di KUMANIME.FUN"
+                content="Nonton anime subtitle Indonesia secara gratis di Karumime"
                 />
                 <meta name="robots" content="index, follow" />
                 <meta name="googlebot" content="index, follow" />
                 <meta
                 property="og:title"
-                content="Kumanime - Streaming Anime Sub Indo"
+                content="Karunime - Streaming Anime Sub Indo"
                 />
                 <meta
                 property="og:description"
-                content="Nonton anime subtitle Indonesia secara gratis di KUMANIME.FUN"
+                content="Nonton anime subtitle Indonesia secara gratis di Karunime"
                 />
                 <meta property="og:locale" content="id_ID" />
                 <meta property="og:type" content="website" />
@@ -98,7 +98,7 @@ const Homepage = () => {
             {(latestAnimeData.status === "success" && newsAnimeData) ? (
                 <>
                     <Hero />
-                    <div className="main gap-5 px-7 pt-10 grid lg:grid-cols-9 grid-cols-1 bg-bg-kumanime">
+                    <div className="main gap-5 px-7 pt-10 grid lg:grid-cols-9 grid-cols-1 bg-bg-karunime">
                         <div className="lg:col-span-6 lg:mx-5 lg:px-10">
                             <div className={!isHistoryExist ? "hidden" : ""}>
                                 <Title>Lanjut Nonton</Title>
