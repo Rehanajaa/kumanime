@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       'colors': {
-        'kumanime': '#2dc653',
-        'bg-kumanime': '#141519',
-        'bg-kumanime-2': '#0E1A22',
-        'bg-kumanime-semi': '#15202B'
+        'karunime': '#2dc653',
+        'bg-karunime': '#141519',
+        'bg-karunime-2': '#0E1A22',
+        'bg-karunime-semi': '#15202B'
       },
       'fontFamily': {
         'poppins': ['Poppins', 'sans-serif'],
